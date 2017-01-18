@@ -1,0 +1,23 @@
+###############################################################################
+Directories
+
+inc- contains the LabVolt header, include this whenever you want to use labvolt functions
+lib- contains source code and compilation instructions for the labvolt library
+lab- simple example
+
+
+###############################################################################
+Linking the LabVolt library to your source code-
+# gcc -Wall -g -o example example.c -L"directory/to/lib" -lusb-1.0 -llabvolt
+
+or similarly for c++
+
+# g++ -Wall -g -o example example.cpp -L"path/to/liblabvolt.a" -lusb-1.0 -llabvolt
+
+
+An example Makefile is included in lab/example/src
+To compile the example for example simply type
+# make
+
+
+###############################################################################

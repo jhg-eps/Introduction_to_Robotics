@@ -1,0 +1,19 @@
+###############################################################################
+Compiling the LabVolt library on generic linux
+
+Install the following using pacman/apt-get/yum/rpm/etc.:
+gcc/g++
+make
+libudev
+	libudev is likely part of another package
+	On Fedora 18 it is part of systemd
+libudev-devel
+	libudev-devel is likely part of another package
+	On Fedora 18 it is part of systemd-devel
+
+cd into the lib directory and type make. If no errors popped up and liblabvolt.a appeared in the lib directory, you're done!
+
+###############################################################################
+Some additional information is available in 5150-Software-API.pdf.
+
+###############################################################################

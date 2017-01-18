@@ -1,0 +1,18 @@
+###############################################################################
+Compilation instructions-
+From the project root (you'll see lib, lab, inc) simply navigate into the lab1 directory
+# cd lab/lab1
+
+Compile the example with the command
+# make
+
+Run the executable with
+# ./example
+
+
+###############################################################################
+When working on a future labs it's recommended to start with a new set of source files
+To do this navigate to the lab directory (you'll see example from this directory) and type
+# cp -r example lab1
+
+A new directory called lab1 should appear that is an exact copy of your previous lab. Have at it.
